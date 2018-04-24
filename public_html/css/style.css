@@ -1,0 +1,305 @@
+body, html{
+    height:98%;}
+
+body {
+  /*background-color: #red; */
+    font-family: sans-serif;
+    background-image: url('../media/fondtab.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    color:#f2f2f2;
+}
+
+body a {
+    color:#cccccc;
+}
+
+.page {
+    margin-bottom: 10px;
+    min-height:100%;
+}
+
+.pagearticle {
+    min-height:142%;
+}
+
+header {
+    background-color: rgba(0,0,0,0.2);
+    min-height: 10%;
+    padding-left: 15%;
+    padding-right: 10%;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 15px;
+}
+
+
+
+footer {
+    
+    background-color: rgba(0,0,0,0.2);
+   
+}
+
+.content {
+    background-color: white;
+    color: #34383a;
+    border: 3px solid  #34383a;
+    background-position: right; 
+    background-repeat: no-repeat;
+    margin-left: 20%;
+    margin-right: 5%;
+    padding-left: 2%;
+    padding-top: 0%;
+}
+
+.fondboy {
+        background-image: url('../media/boy.png');
+
+}
+
+.derniersArticles {
+    margin-top: -1%;
+        margin-left: 20%;
+    margin-right: 10%;   
+}
+
+
+
+h1 {
+    font-size: 4vw;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+h2 {
+    font-size: 3vw;
+}
+
+h3 {
+    font-size: 2vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.padding {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+}
+
+
+.right {
+    float:right;
+}
+
+.left {
+    float:left
+}
+
+
+
+div.colonnes {
+    text-align: center;
+    display: table;
+    width:80%;
+    padding-left: 10%;
+    padding-top: 10px;
+}
+
+div.colonne, div.contenu {
+    width: 33%;
+    display: table-cell;
+    padding: 5px;
+}
+
+.picto {
+    margin-bottom: 5px;
+}
+
+.logo {
+    max-height: 3%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.article {
+    
+    text-align: center;
+    margin-left:2%;
+    margin-right:2%;
+}
+
+.article1 {
+    
+    text-align: center;
+    margin-left:5%;
+    margin-right:2%;
+}
+
+.article4 {
+    
+    text-align: center;
+    margin-left:3%;
+    margin-right:2%;
+}
+
+
+.menu {
+    border: 3px solid  #f2f2f2;
+    padding: 1%;
+    float: left;
+    margin-left: 5%;
+}
+
+
+.menutitre {
+    float: right;
+    background-color: red;
+    margin-bottom: 25px;
+    
+}
+
+div.menuelement { 
+padding:10px; /* aération interne des blocs */
+display:inline-block;
+vertical-align:middle;
+}
+
+
+.formulaire {
+    min-height: 200%;
+    width: 40%;
+    float:left;
+    font-family: sans-serif;
+    padding-left:10%;
+    margin-bottom: 5%;
+}
+
+.formulaire input ,textarea {
+    
+    font-family: sans-serif;
+    min-height: 30px;
+    padding: 5px;
+    font-size: 1.5vw;
+    margin-bottom: 10px;
+    color:#37393b;
+    border-radius: 10px;
+    min-width: 100%;
+
+
+
+}
+
+#submit_button {
+    background-color: white;
+    color:#37393b;
+    width:50px;
+
+}
+
+#submit_button:hover {
+
+    color:white;
+    background-color:#37393b;
+    cursor: pointer;
+}
+
+.adresse {
+    float:right;
+    margin-top:10%;
+    margin-right: 25%;
+    width:20%;
+}
+
+.pictoForm {
+    max-height: 50px;
+}
+
+.coordonnees {
+    margin-top: 20px;
+    padding-left: 35px;
+}
+
+.espace {
+    min-height: 25px;  
+}
+
+
+
+#articlecolonne2 {
+    float: right;
+    border: 3px solid  #f2f2f2;
+    padding: 1%;
+    margin-right: 5%;
+    text-align: center;
+    
+}
+#articlecentre {
+        
+        border: 3px solid  #f2f2f2;
+        color: #34383a;
+        padding: 1%;
+        margin-left:20%;
+	margin-right:22%;
+        text-align: center;
+}
+
+.descriptionproduit {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.memecategorie {
+    
+    margin-bottom: 25px;
+}
+
+.articlecategorie {
+    
+    text-align: left;
+}
+
+.blok {
+    float:left;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 3%;
+}
+
+.categoriecentre {
+    color:#f2f2f2;
+    min-height: 650px;
+    margin-bottom: 10px;
+}
+
+.articles
+{
+    margin-left: 2%;
+    margin-right: auto;
+}
+
+.ampoul {
+    max-height: 125px;
+    width: auto;
+}
